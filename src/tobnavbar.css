@@ -1,0 +1,13 @@
+.curved-navbar {
+    display: flex; /* Enables flexbox layout */
+    width: 95%; /* Make it responsive */
+    padding: 20px 59px; /* Padding around content */
+    flex-direction: row; /* Stack items horizontally */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    border-radius: 999px; /* Fully rounded corners */
+    border: 1px solid #C3DED8; /* Light border */
+    background: #F3F8F7; /* Background color */
+    margin: 20px auto 0; /* Adds space above and centers the navbar */
+}
+
