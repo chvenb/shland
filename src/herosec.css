@@ -1,0 +1,94 @@
+.hero-container {
+    background-image: url('./assets/images/bg-square-large (1).svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /* Change to row for side-by-side layout */
+    align-items: center;
+    justify-content: space-between; /* Space out text and image */
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heroheading,
+.heroheading2 {
+    color: #0E101A;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left : 98px;
+}
+
+.heroheading2 {
+    color: #0D8267;
+    margin-top: 10px;
+}
+
+.heropara {
+    color: #111;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+    opacity: 0.7;
+    margin: 10px 0 20px;
+    position: relative;
+    left : 98px;
+    
+
+}
+
+.heroimg {
+    max-width: 462.219px; /* Adjust size */
+    align-self: center; /* Center image on smaller screens */
+    position: relative;
+    top : 1px;
+    right : 85px;
+    bottom: 350px;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+    position: relative;
+    left : 98px;
+    border-radius: 16px;
+
+}
+
+.getstartedbtn, .learnmorebtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.getstartedbtn {
+    background-color: #0D8267;
+}
+
+.learnmorebtn {
+    background-color: transparent;
+    border: 2px solid #0D8267;
+    color: #0D8267;
+}
+

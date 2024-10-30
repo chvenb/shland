@@ -1,0 +1,40 @@
+<svg width="1440" height="1020" viewBox="0 0 1440 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.6" clip-path="url(#clip0_366_15189)">
+<mask id="mask0_366_15189" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-60" width="1440" height="1440">
+<g clip-path="url(#clip1_366_15189)">
+<rect width="1440" height="1440" transform="matrix(0 -1 1 0 0 917)" fill="url(#paint0_radial_366_15189)"/>
+</g>
+</mask>
+<g mask="url(#mask0_366_15189)">
+<g clip-path="url(#clip2_366_15189)">
+<path d="M99 -60V1380" stroke="#0D8267"/>
+<path d="M306 -60V1380" stroke="#0D8267"/>
+<path d="M513 -60V1380" stroke="#0D8267"/>
+<path d="M720 -60V1380" stroke="#0D8267"/>
+<path d="M927 -60V1380" stroke="#0D8267"/>
+<path d="M1134 -60V1380" stroke="#0D8267"/>
+<path d="M1341 -60V1380" stroke="#0D8267"/>
+<path d="M-240 39L1680 39" stroke="#0D8267"/>
+<path d="M-240 246L1680 246" stroke="#0D8267"/>
+<path d="M-240 453L1680 453" stroke="#0D8267"/>
+<path d="M-240 660L1680 660" stroke="#0D8267"/>
+<path d="M-240 867L1680 867" stroke="#0D8267"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_366_15189" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 720) rotate(90) scale(720 720)">
+<stop/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_366_15189">
+<rect width="1440" height="1080" fill="white" transform="translate(0 -60)"/>
+</clipPath>
+<clipPath id="clip1_366_15189">
+<rect width="1440" height="1440" fill="white" transform="matrix(0 -1 1 0 0 1380)"/>
+</clipPath>
+<clipPath id="clip2_366_15189">
+<rect width="1920" height="1440" fill="white" transform="translate(-240 -60)"/>
+</clipPath>
+</defs>
+</svg>

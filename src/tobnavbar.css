@@ -1,13 +1,77 @@
+/* Navbar container styling */
 .curved-navbar {
-    display: flex; /* Enables flexbox layout */
-    width: 95%; /* Make it responsive */
-    padding: 20px 59px; /* Padding around content */
-    flex-direction: row; /* Stack items horizontally */
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Center items vertically */
-    border-radius: 999px; /* Fully rounded corners */
-    border: 1px solid #C3DED8; /* Light border */
-    background: #F3F8F7; /* Background color */
-    margin: 20px auto 0; /* Adds space above and centers the navbar */
+    display: flex;
+    justify-content: space-between; /* Evenly distributes space */
+    align-items: center;
+    width: 95%;
+    max-width: 1360px;
+    padding: 15px 40px;
+    border-radius: 999px;
+    border: 1px solid #C3DED8;
+    background-color: #F3F8F7;
+    margin: 20px auto;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
 }
 
+/* Brand/logo alignment */
+.navbar-brand {
+    margin-right: auto; /* Aligns to the far left */
+    font-size: 18px; /* Adjust font size for better visibility */
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #0D8267;
+}
+
+/* Nav links container */
+.nav-links {
+    display: flex;
+    justify-content: center; /* Centers links */
+    align-items: center;
+    gap: 40px; /* Space between links */
+    flex: 1; /* Expands to available space */
+    margin: 0 auto; /* Centers the links container */
+}
+
+/* Styling for individual links */
+.about-us, .blogs, .courses {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 20px; /* Adds a subtle rounded effect */
+}
+
+.about-us:hover,
+.blogs:hover,
+.courses:hover {
+    color: #fff;
+    background-color: #0D8267; /* Improved hover effect */
+}
+
+/* Sign In button styling */
+.signin-btn {
+    padding: 10px 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 32px;
+    border: 1px solid #0D8267;
+    background: transparent;
+    color: #0D8267;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 20px; /* Adds spacing from the last link */
+}
+
+.signin-btn:hover {
+    background-color: #0D8267;
+    color: #fff;
+    border-color: #0D8267; /* Matches the background color */
+}

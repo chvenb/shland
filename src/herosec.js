@@ -1,33 +1,27 @@
 import React from "react";
-import bgLines from "./bglines.png"; // Import the background image
-import heroimg from "./heroimage.png"; // Import the hero image
+import scholarImage from './assets/images/scholar.png';
+import './herosec.css';
 
 const HeroSection = () => {
-    const myStyle = {
-        height: "100vh", // Full viewport height
-        marginTop: "-4.375rem", // Equivalent to -70px
-        display: "flex",
-        justifyContent: "center", // Center horizontally
-        alignItems: "center", // Center vertically
-        opacity: "60%",
-    };
-
-    const heroStyl = {
-        marginTop: "2rem",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-    };
-
-    return (
-        <>
-            <div style={myStyle}>
-                <img src={bgLines} alt="Background Lines" />
-            </div>
-
-            
-        </>
-    );
+  return (
+    <div className="hero-container">
+      <div className="hero-content">
+        <h1 className="heroheading">Empower Your Future with</h1>
+        <h1 className="heroheading2">Quality Education</h1>
+        <br/>
+        <p className="heropara">
+          Join our community of learners and take the first step towards <br />
+          achieving your academic goals.
+        </p>
+        <div className="buttons">
+          <button className="getstartedbtn">Get Started</button>
+          
+          <button className="learnmorebtn">Learn More</button>
+        </div>
+      </div>
+      <img src={scholarImage} alt="Scholar" className="heroimg" />
+    </div>
+  );
 };
 
 export default HeroSection;
